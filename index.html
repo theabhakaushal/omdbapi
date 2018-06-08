@@ -1,0 +1,132 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>movies</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="api.css">
+
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+<div  style="background-repeat: space;width: 100%;">
+    
+<img src="sec.jpg" class="img-fluid" style="width: 100%;height: 23vh">
+
+
+</div>
+
+
+
+<div style="text-align: center;background-color: #BCBCBC;height: 22vh;color: black;padding-top: 2vh">
+  <h2> The Movie Story</h2>
+    <p>Search about the latest movie , their information and the name of their actors etc..
+    In this website..
+    U will get to know about everything. </p>
+
+</div>
+
+
+<div class="row" id="searches"  style="margin-top: 5vh;text-align: center;margin-bottom: 2vh;margin-left: 10vh;margin-right: 10vh;">
+
+<div class="bttn">
+    <button class="btn-primary srch"  >Search By Year</button>
+</div>
+
+
+<div class="bttn">
+    <button class="btn-primary srch" >Search By Title</button>
+</div>
+
+
+<div class="bttn">
+    <button class="btn-primary srch" >Search By ID</button>
+</div>
+
+
+</div>
+
+
+
+<div id="searchMenu" class="container text-center" >
+   
+
+<form id="form" method="post">
+  
+  
+  <input type="email" name="inp" placeholder="Enter value" id="inputval">
+
+<button type="submit" class="btn-primary" onclick="display()" id="submit">Submit</button>
+
+
+ 
+ 
+    </form>
+   
+
+    </div>
+
+
+
+
+
+        <div id="showData" class="container">
+            
+        </div>
+
+  
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+  
+  $("#searchMenu").hide();
+
+    $(".bttn").click(function(){
+       
+        $("#searchMenu").show();
+    });
+ 
+ $("#submit").click(function(){
+       
+        $("#form").hide();
+        $("#searches").hide();
+
+    });
+ 
+
+ });
+
+</script>
+
+
+
+
+
+<!-- External Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+<script src="api.js"></script>
+</body>
+</html>
+

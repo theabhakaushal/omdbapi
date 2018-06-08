@@ -1,0 +1,66 @@
+ .bttn{
+
+      margin-top: 3vh; 
+      margin-bottom :3vh;
+      margin-left: 5vh;
+      margin-right: 5vh;
+    }
+
+
+
+
+
+ #searchMenu {
+
+margin-left: auto;
+margin-right: auto;
+margin-top:7vh;
+ } 
+
+#inputval{
+
+	width: 60vw;
+	margin-bottom: 20px;
+	margin-left: 10vh;
+	float: left;
+	height: 6vh;
+}
+
+
+ @media (max-width: 600px) { 
+
+.srch{
+
+width: 50vw;
+height: 10vh;
+
+}
+
+#submit{
+
+	height: auto;
+	width: auto;
+}
+
+
+}
+
+ @media (min-width: 600px) { 
+
+.srch{
+
+width: 25vw;
+height: 10vh;
+
+}
+
+#submit{
+
+	float: left;
+	margin-left: 10px;
+}
+
+
+
+}
+
