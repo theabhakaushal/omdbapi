@@ -44,11 +44,11 @@ let getAllData = () => {
 
     <div class="row">
         
-        <div class="col-lg-10 col-md-10 col-sm-11 col-xs-9" style="color:blue;"><font size="5"><strong>${(data.Title)} (${(data.Year)})</strong></font></div>
-        <div class="col-lg-2 col-md-2 col-sm-11 col-xs-9"><strong>Rated:</strong><small> ${(data.Rated)}</small></div>
+        <div class="col-lg-9 col-md-9 col-sm-11 col-xs-9" style="color:blue;"><font size="5"><strong>${(data.Title)} (${(data.Year)})</strong></font></div>
+        <div class="col-lg-3 col-md-3 col-sm-11 col-xs-9"><strong>Rated:</strong><small> ${(data.Rated)}</small></div>
         <div class="col-lg-3 col-md-3 col-sm-11 col-xs-9" ><strong>Time:</strong><small> ${(data.Runtime)}</small></div>
-        <div class="col-lg-7 col-md-7 col-sm-11 col-xs-9"><strong>Genre:</strong> <small>${(data.Genre)}</small></div>
-        <div class="col-lg-2 col-md-2 col-sm-11 col-xs-9"><strong>Language:</strong> <small>${(data.Language)}</small></div>
+        <div class="col-lg-6 col-md-6 col-sm-11 col-xs-9"><strong>Genre:</strong> <small>${(data.Genre)}</small></div>
+        <div class="col-lg-3 col-md-3 col-sm-11 col-xs-9"><strong>Language:</strong> <small>${(data.Language)}</small></div>
 
     </div>
     <br>
@@ -57,12 +57,12 @@ let getAllData = () => {
 
         <div class="row">
         
-        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+        <div class="col-lg-4 col-md-5 col-sm-12 col-xs-12">
             <img src="" id="poster" width="17" height="20">
         </div>
     <br>
 
-        <div class="col-lg-9 col-md-9 col-sm-10 col-xs-12" id="DWAP">
+        <div class="col-lg-8 col-md-7 col-sm-12 col-xs-12" >
             
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12"><strong>Released On:   </strong><small>${(data.Released)}</small></div>
             
